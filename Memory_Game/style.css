@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  width: 100%;
+  background: #262626;
+  justify-content: center;
+}
+.box {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #fff;
+}
+.box h3 {
+  margin: 20px;
+}
+#grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px repeat(auto-fill, 100px) 100px;
+  grid-gap: 5px;
+}
